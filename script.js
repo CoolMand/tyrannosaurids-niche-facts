@@ -11,3 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+// Back-to-top button show/hide
+const toTop = document.getElementById('toTop');
+window.addEventListener('scroll', () => {
+  if (!toTop) return;
+  toTop.classList.toggle('show', window.scrollY > 500);
+});
