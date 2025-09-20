@@ -150,7 +150,16 @@ small,cite,figcaption{
 #toTop:hover{
   border-color:var(--accent);
   box-shadow:0 8px 24px rgba(143,209,127,.25);
+}/* ===== Section panels ===== */
+main > section {
+  background: var(--panel);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 16px;
+  padding: 1.1rem .95rem;
+  box-shadow: 0 0 0 1px rgba(143,209,127,.06), 0 10px 30px rgba(0,0,0,.35);
+  margin-top: 1rem;
 }
+
 
 /* ===== Links in content ===== */
 a{
